@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+
+h5
+{
+  font-family: 'Cormorant Infant', serif;
+  text-align: center;
+  color: rgb(200, 185, 185);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+h2
+{
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+  font-size: 36px;
+  margin: 6px 0;
+  color: #000;
+  font-weight: bolder;
+}
+
+.home_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 9%;
+    padding-bottom: 2%;
+}
+
+.image_div
+{
+    margin-top: 40px;
+}
+
+.portfolio_pic
+{
+    width: 290px;
+    height: 430px;
+    border-radius: 20px;
+}
+
+
+@media (max-width:1920px) and (min-width:1700px) {
+  h5
+  {
+    font-size: 26px;
+  }
+  h2
+  {
+    font-size: 40px;
+  }
+  .portfolio_pic
+  {
+    width: 320px;
+    height: 480px;
+ }
+}
+
+@media (width:1680px) {
+  h5
+  {
+    font-size: 24px;
+  }
+  h2
+  {
+    font-size: 38px;
+  }
+  .portfolio_pic
+  {
+    width: 300px;
+    height: 440px;
+  }
+}
+
+@media (width:1366px) {
+  h5
+  {
+    font-size: 20px;
+  }
+  h2
+  {
+    font-size: 34px;
+  }
+  .portfolio_pic
+  {
+    width: 280px;
+    height: 420px;
+  }
+}
+
+@media (width:1280px) {
+  h5
+  {
+    font-size: 19px;
+  }
+  h2
+  {
+    font-size: 35px;
+  }
+  .portfolio_pic
+  {
+    width: 280px;
+    height: 400px;
+  }
+  .home_container
+  {
+    padding-top: 9.5%;
+  }
+
+}
+
+
+@media (width:1024px) {
+  h5
+  {
+    font-size: 22px;
+  }
+  h2
+  {
+    font-size: 40px;
+  }
+  .portfolio_pic
+  {
+    width: 300px;
+    height: 430px;
+  }
+  .home_container
+  {
+    padding-top: 14.5%;
+  }
+
+}
+
+
+@media (width:820px) {
+  h5
+  {
+    font-size: 22px;
+  }
+  h2
+  {
+    font-size: 40px;
+  }
+  .portfolio_pic
+  {
+    width: 300px;
+    height: 430px;
+  }
+  .home_container
+  {
+    padding-top: 16.5%;
+  }
+
+}
+
+
+
+@media (width:912px) {
+  h5
+  {
+    font-size: 22px;
+  }
+  h2
+  {
+    font-size: 40px;
+  }
+  .portfolio_pic
+  {
+    width: 300px;
+    height: 430px;
+  }
+  .home_container
+  {
+    padding-top: 16.5%;
+  }
+
+}
+
+
+@media (width:768px) {
+  h5
+  {
+    font-size: 22px;
+  }
+  h2
+  {
+    font-size: 40px;
+  }
+  .portfolio_pic
+  {
+    width: 300px;
+    height: 430px;
+  }
+  .home_container
+  {
+    padding-top: 17.5%;
+  }
+
+}
+
+@media (width:800px) {
+  h5
+  {
+    font-size: 22px;
+  }
+  h2
+  {
+    font-size: 40px;
+  }
+  .portfolio_pic
+  {
+    width: 300px;
+    height: 430px;
+  }
+  .home_container
+  {
+    padding-top: 17.5%;
+  }
+
+}
+
+
+@media (width:712px) {
+  h5
+  {
+    font-size: 22px;
+  }
+  h2
+  {
+    font-size: 40px;
+  }
+  .portfolio_pic
+  {
+    width: 300px;
+    height: 430px;
+  }
+  .home_container
+  {
+    padding-top: 18.5%;
+  }
+
+}
+
+
+@media (width:640px) {
+  h5
+  {
+    font-size: 20px;
+  }
+  h2
+  {
+    font-size: 34px;
+  }
+  .portfolio_pic
+  {
+    width: 300px;
+    height: 430px;
+  }
+  .home_container
+  {
+    padding-top: 20.5%;
+  }
+
+}
+
+
+@media (width:600px) {
+  h5
+  {
+    font-size: 20px;
+  }
+  h2
+  {
+    font-size: 34px;
+  }
+  .portfolio_pic
+  {
+    width: 300px;
+    height: 430px;
+  }
+  .home_container
+  {
+    padding-top: 20.5%;
+  }
+
+}
+
+
+
+@media (width:480px) {
+  h5
+  {
+    font-size: 16px;
+  }
+  h2
+  {
+    font-size: 32px;
+  }
+  .portfolio_pic
+  {
+    width: 300px;
+    height: 430px;
+  }
+  .home_container
+  {
+    padding-top: 25.5%;
+  }
+
+}
+
+
+

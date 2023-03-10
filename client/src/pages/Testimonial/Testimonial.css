@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+
+.testimonial_container 
+{
+   margin-top: 140px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.client_avatar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.avatar
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 0.4rem solid #4f2c72;
+}
+
+.client_name
+{
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 22px;
+    color: white;
+    padding-top: 15px;
+}
+
+.client_review
+{
+    font-family: 'Cormorant Infant', serif;
+    color: white;
+    font-size: 18px;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    line-height: 1.4;
+}
+
+.testimonial_article
+{
+    background-color: #221331;
+    margin-top: 0px;
+    width: 50%;
+    height: 400px;
+    border-radius: 25px;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+
+.testimonial_article_div
+{
+    background-color: transparent;
+    margin-top: 50px;
+    width: 50%;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #4f2c72 !important;
+}
+
+.swiper-pagination {
+    position: absolute;
+    text-align: center;
+    top: 350px;
+}
+
+
+@media (width:1280px) {
+    .client_avatar
+    {
+        margin-top: 35px;
+    }
+
+}
+
+
+@media (width:1366px) {
+    .client_avatar
+    {
+        margin-top: 35px;
+    }
+
+}
+
+
+@media (width:1440px) {
+    .client_avatar
+    {
+        margin-top: 40px;
+    }
+
+}
+
+
+@media (width:1024px) {
+    .client_avatar
+    {
+        margin-top: 30px;
+    }
+    .client_review
+    {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+}
+
+
+
+@media (width:820px) {
+    .client_avatar
+    {
+        margin-top: 30px;
+    }
+    .client_review
+    {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 16px;
+    }
+    .client_name
+    {
+        padding-top: 18px;
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+@media (width:912px) {
+    .client_avatar
+    {
+        margin-top: 30px;
+    }
+    .client_review
+    {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 16px;
+    }
+    .client_name
+    {
+        padding-top: 18px;
+        font-size: 20px;
+    }
+
+
+}
+
+
+@media (width:800px) {
+    .client_avatar
+    {
+        margin-top: 30px;
+    }
+    .client_review
+    {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 16px;
+    }
+    .client_name
+    {
+        padding-top: 18px;
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+@media (width:768px) {
+    .client_avatar
+    {
+        margin-top: 30px;
+    }
+    .client_review
+    {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 16px;
+    }
+    .client_name
+    {
+        padding-top: 18px;
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+@media (width:712px) {
+    .client_avatar
+    {
+        margin-top: 30px;
+    }
+    .client_review
+    {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 16px;
+    }
+    .client_name
+    {
+        padding-top: 18px;
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+@media (width:640px) {
+    .client_avatar
+    {
+        margin-top: 30px;
+    }
+    .client_review
+    {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 16px;
+    }
+    .client_name
+    {
+        padding-top: 18px;
+        font-size: 20px;
+    }
+   
+
+
+}
+
+@media (width:600px) {
+    .client_avatar
+    {
+        margin-top: 30px;
+    }
+    .client_review
+    {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 14px;
+    }
+    .client_name
+    {
+        padding-top: 18px;
+        font-size: 18px;
+    }
+
+}
+
+
+
+@media (width:480px) {
+    .client_avatar
+    {
+        margin-top: 25px;
+    }
+    .client_review
+    {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        font-size: 13px;
+    }
+    .client_name
+    {
+        padding-top: 18px;
+        font-size: 18px;
+    }
+
+}
